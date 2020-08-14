@@ -18,10 +18,10 @@ accountsToReply = blockchain, alistairmilne
 considerLastMinues = 400
 
 # your credentials to use the twitter API. Get them at apps.twitter.com
-OAuthConsumerKey=uuAhDMsQi6t4tjiqlaDlkyY6k
-OAuthConsumerSecret=9aPg2D7vrbjSZFqFWADbA6MyuQrUVqhWEW0L7lxo87xTQxgbLn
-OAuthAccessToken=1294016784589258752-gAIshshzy9EAo3taOwSmVjMzZJAy1G
-OAuthAccessTokenSecret=QzasNUNo4ZRL7LwzaFHmMwbk8KzjnKEA8XRvXFpE4uUAn
+OAuthConsumerKey=*
+OAuthConsumerSecret=*
+OAuthAccessToken=*
+OAuthAccessTokenSecret=*
 
 # the name of the twitter handle you will tweet from, only for logging purposes
 botHandle=WSegwit
