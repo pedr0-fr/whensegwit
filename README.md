@@ -5,7 +5,7 @@ As here: https://twitter.com/alistairmilne/status/1293984610611802112
 
 # Features
 * **No double-tweets**: this bot saves the tweets it has replied to so it avoids double tweeting even if it's turned on and off several times. The tweets it has replied to are saved in `replies.json`.
-* **Reply to old tweets**: when you launch the bot, you can choose to reply to all tweets of the accounts you specified up-to a certain day. This could be useful, for example, if you stop the bot for 3h and then set it to reply to all tweets in the past 3h.
+* **Reply to old tweets**: when you launch the bot, you can choose to reply to all tweets of the accounts you specified up-to a certain instant. This could be useful, for example, if you stop the bot for 3h and then set it to reply to all tweets in the past 3h.
 
 # Configuration
 
