@@ -38,7 +38,6 @@ The activity of the bot is written to the log file `logs/application.log`. This 
 Here is an example of the log:
 
 ```
-03:36:47.815 [com.whensegwit.Application.main()] INFO  com.whensegwit.Application - Finished verifying tweets. Pausing for 60 seconds...
 03:39:15.910 [com.whensegwit.Application.main()] INFO  com.whensegwit.Application - Successful initialization. Starting to check for possibles replies within the last 420 minutes.
 03:39:17.099 [com.whensegwit.Application.main()] INFO  com.whensegwit.Application - Tweeted reply! original tweet=https://twitter.com/blockchain/1294012097437798402, new tweet=https://twitter.com/WSegwit/1294116353977262081
 03:39:17.541 [com.whensegwit.Application.main()] INFO  com.whensegwit.Application - Tweeted reply! original tweet=https://twitter.com/alistairmilne/1294020865584181251, new tweet=https://twitter.com/WSegwit/1294116355868971008
