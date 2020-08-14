@@ -99,10 +99,10 @@ public class Application {
             StatusUpdate stat = new StatusUpdate("@" + account + "\n When SegWit?");
             stat.setInReplyToStatusId(id);
             try{
-                //Status newStatus = twitter.updateStatus(stat);
+                Status newStatus = twitter.updateStatus(stat);
                 repliedTweetsPerAccount.get(account).add(id);
                 LOGGER.info("Tweeted reply! original tweet=https://twitter.com/" + account + "/" + id +
-                        ", new tweet=https://twitter.com/" + botHandle + "/" + 1); //newStatus.getId()
+                        ", new tweet=https://twitter.com/" + botHandle + "/" + newStatus.getId());
             } catch(Exception ex){
                 LOGGER.warn("Failed to reply to tweet. account=" + account + ", id=" + id, ex);
             }
